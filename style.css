@@ -19,7 +19,7 @@
     display: inline-block;
     list-style-type: none;
     padding-left: 0px;
-    padding-right: 20%;
+    padding-right: 5%;
 }
 li {
     display: inline-block;
@@ -27,4 +27,14 @@ li {
 a {
     text-decoration: none;
     color: white;
+}
+#video-div {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+#video {
+    position: relative;
+    margin: auto;
+    display: block;
 }
