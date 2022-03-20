@@ -15,6 +15,7 @@
     align-items: center;
     position: fixed;
     text-align: center;
+    margin-bottom: 10px;
 }
 #header-img {
     z-index: 6;
@@ -54,21 +55,25 @@ a {
     background-color: rgb(0, 43, 44);
     position: relative;
     margin: auto;
-    margin-top: 7%;
-    margin-bottom: 5%;
+    margin-top: 100px;
     color: white;
     font-size: 16pt;
     padding: 10px;
     padding-bottom: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+#about-us-title {
+    font-size: 1.5em;
+    display: block;
+    padding-bottom: 5px;
+}
 #video-div {
     position: relative;
     width: 100%;
     height: fit-content;
     margin: auto;
-    margin-top: 7%;
-    margin-bottom: 2%;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 #video {
     position: relative;
@@ -107,7 +112,15 @@ label {
     color: white;
     font-size: 18pt;
 }
-@media screen and (max-width: 700px) {
+@media (max-width: 800px) {
+    #header-title {
+        font-size: 15pt;
+    }
+    #about-us{
+        font-size: 12pt;
+    }
+}
+@media (max-width: 700px) {
     #video {
         width: 90%;
         height: 200px;
