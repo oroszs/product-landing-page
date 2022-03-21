@@ -52,14 +52,12 @@ a {
     text-align: center;
     width: 75%;
     border-radius: 5px;
-    background-color: rgb(0, 43, 44);
+    background-color: rgb(0, 44, 44);
     position: relative;
     margin: auto;
     margin-top: 100px;
     color: white;
     font-size: 16pt;
-    padding: 10px;
-    padding-bottom: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 #about-us-title {
@@ -68,8 +66,10 @@ a {
     padding-bottom: 5px;
 }
 #video-div {
+    background-color:rgb(0, 44, 44);
+    border-radius: 5px;
     position: relative;
-    width: 100%;
+    width: 50%;
     height: fit-content;
     margin: auto;
     margin-top: 30px;
@@ -79,6 +79,48 @@ a {
     position: relative;
     margin: auto;
     display: block;
+}
+#shop-div {
+    position: relative;
+    margin: auto;
+    width: 70%;
+    height: 400px;
+    border-radius: 5px;
+    background-color: rgb(0,44,44);
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.shop-product-title, .shop-product-price {
+    flex: none;
+    color: white;
+    font-size: 18pt;
+}
+#about-us, #video-div, #shop-div {
+    padding: 100px;
+}
+.shop-img-div {
+    flex: none;
+    width: 200px;
+    height: 300px;
+    padding: 20px;
+    background-color: grey;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.shop-img-div:hover {
+    cursor: pointer;
+}
+.shop-img {
+    flex: none;
+    height: 150px;
+    width: auto;
+    border-radius: 5px;
 }
 #form-div{
     position: relative;
@@ -112,7 +154,7 @@ label {
     color: white;
     font-size: 18pt;
 }
-@media (max-width: 800px) {
+@media screen and (max-width: 800px) {
     #header-title {
         font-size: 15pt;
     }
@@ -120,7 +162,7 @@ label {
         font-size: 12pt;
     }
 }
-@media (max-width: 700px) {
+@media screen and (max-width: 700px) {
     #video {
         width: 90%;
         height: 200px;
